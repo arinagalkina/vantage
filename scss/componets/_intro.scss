@@ -1,0 +1,108 @@
+.intro {
+  background: #141414;
+
+  &-box {
+    width: 584px;
+    height: 455px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 67px;
+    box-sizing: border-box;
+    left: 484px;
+    position: relative;
+    z-index: 5;
+    bottom: 87px;
+  }
+  &-p-descr {
+    color: #99823d;
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.575px; /* 150.682% */
+    letter-spacing: 2.763px;
+    text-transform: uppercase;
+  }
+  &-h1 {
+    color: #141414;
+    font-family: Teko;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67.031px; /* 100.046% */
+    text-transform: capitalize;
+    margin: 0;
+  }
+  &-paragraph {
+    color: #141414;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px; /* 150% */
+  }
+  &-btn {
+    width: 216px;
+    height: 68px;
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.85px; /* 148.75% */
+    letter-spacing: 2.975px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+  }
+  &-btn-wrap {
+    display: flex;
+    gap: 17px;
+  }
+}
+
+.explore {
+  background: #99823d;
+}
+.lets {
+  background: #141414;
+}
+
+.just-box {
+  background: #99823d;
+  width: 489px;
+  height: 329px;
+  position: relative;
+  left: 653px;
+  bottom: 279px;
+}
+
+.intro-img img {
+  top: 82px;
+  position: absolute;
+}
+
+.social-media {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 68px; /* 566.667% */
+  letter-spacing: 2.975px;
+  text-transform: uppercase;
+  display: inline-flex;
+  height: 68px;
+  padding: 0px 343px 0px 3px;
+  align-items: flex-start;
+  gap: 37px;
+  flex-shrink: 0;
+  background: #EBEBEB;
+  position: relative;
+  top: 517px;
+}
+
